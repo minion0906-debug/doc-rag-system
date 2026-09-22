@@ -1,0 +1,37 @@
+[project]
+name = "askdoc-backend"
+version = "0.1.0"
+description = "AskDoc RAG FastAPI Backend on Vercel"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "langchain",
+    "langchain-google-genai",
+    "langchain-pinecone",
+    "pinecone-client",
+    "python-multipart",
+    "pypdf",
+    "docx2txt",
+    "langgraph",
+    "python-dotenv",
+    "pandas",
+    "openpyxl",
+    "psycopg2-binary",
+    "sqlalchemy",
+    "langchain-text-splitters",
+    "langchain-community",
+    "requests",
+    "python-pptx",
+    "pyjwt",
+    "cryptography",
+    "tenacity",
+    "langgraph-checkpoint-postgres",
+    "psycopg-pool",
+    "pdfplumber",
+    "python-docx"
+]
+
+[tool.vercel]
+entrypoint = "main:app"
