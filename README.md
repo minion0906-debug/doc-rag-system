@@ -327,19 +327,3 @@ cd RagFrontend
 npm run build
 npm run start -p 3000
 ```
-
----
-
-## Author & Credits
-
-**Dilip Meghwal**
-- **Website**: [https://dilipmeghwal.in](https://dilipmeghwal.in)
-- **LinkedIn**: [linkedin.com/in/dilipmeghwal13](https://www.linkedin.com/in/dilipmeghwal13/)
-- **GitHub**: [@DJ-InfinityCoder](https://github.com/DJ-InfinityCoder)
-- **Contact**: [contact@dilip.website](mailto:contact@dilip.website)
-
----
-
-<div align="center">
-  <sub>Built by Dilip Meghwal • AskDoc Enterprise RAG Platform</sub>
-</div>
